@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "How are you?", "Hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "greetingMore",
+         "patterns": [ "How are you", "Whats up"],
+         "responses": ["I am fine!, How about you?", "I am good, you?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "Bye", "See you later", "Goodbye", "Peace out!", "Have a Good day"],
+         "responses": ["Great job today! See ya tomorrow", "Talk to you later", "Goodbye!", "Ditto"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?","name?"],
+         "responses": ["You can call me Chara.", "Chara at your service!", "I'm Chara!","Chara, your assistant for the day!"],
+         "context_set": ""
+        },
+        {"tag": "feeling",
+         "patterns": ["I am feeling tired", "I wham tired", "Really tired", "Can I take a break?"],
+         "responses": ["Understandable, You've had quite the day. Try taking a small break", "Maybe try doing 20 jumping jacks to get your heart pumping! That should do the trick!", "Dehydrated? I hereby order you to drink a glass of water!"],
+         "context_set": ""
+        },
+        {"tag": "tasks",
+         "patterns": ["tasks?", "number of tasks", "How many tasks do I have today", "tasks today?"],
+         "responses": ["Check the list section on the app"],
+         "context_set": ""
+        },
+        {"tag": "purpose",
+         "patterns": ["What is your purpose", "Why were you made?", "What do I use you for?", "Why are you here?","Are you a support chatbot?"],
+         "responses": ["I am here to provide support to any questions you may have regarding this app and also to provide advice on what you can do to make it easier to stay organised in your life working from home!"],
+         "context_set": ""
+        },
+        {"tag": "created",
+         "patterns": ["Who created you?", "Why were you made?", "Who is your creator", "How many people created you","Are you a support chatbot?"],
+         "responses": ["The creator of this app are Mei Chen and Jessica Daly! Both played a big role in creating this app. Mei worked primarily on the programming of the app. Jessica worked primarily on the UX design of the app. Many hours of going through tutorials, debugging errors, testing different softwares and learning new tools were involved in this! We have both thoroughly enjoyed the process of making this app and have learnt A LOT!!!"],
+         "context_set": ""
+        }
+   ]
+}
