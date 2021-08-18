@@ -12,4 +12,4 @@ def chatBot():
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.1.11', debug=True)
+    app.run(host='192.168.1.21', debug=True)
