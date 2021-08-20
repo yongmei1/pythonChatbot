@@ -144,7 +144,7 @@ def chat():
         if inp.lower() == "quit":
             break
 
-        print("Chatbot: "+chatWithBot(inp))
+        print(chatWithBot(inp))
 
 
 #chat()

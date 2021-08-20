@@ -20,17 +20,17 @@
          "context_set": ""
         },
         {"tag": "feeling",
-         "patterns": ["I am feeling tired", "I wham tired", "Really tired", "Can I take a break?"],
-         "responses": ["Understandable, You've had quite the day. Try taking a small break", "Maybe try doing 20 jumping jacks to get your heart pumping! That should do the trick!", "Dehydrated? I hereby order you to drink a glass of water!"],
+         "patterns": ["I am feeling tired", "I am tired", "Really tired", "Can I take a break?"],
+         "responses": ["Understandable, You've had quite the day. Try taking a small break", "Have a cup of coffee","Have a healthy snack to re-energise", "Maybe try doing 20 jumping jacks to get your heart pumping! That should do the trick!", "Dehydrated? I hereby order you to drink a glass of water!"],
          "context_set": ""
         },
         {"tag": "tasks",
          "patterns": ["tasks?", "number of tasks", "How many tasks do I have today", "tasks today?"],
-         "responses": ["Check the list section on the app"],
+         "responses": ["Check the list tab on the app. Hopefully sooner I can answer this question directly. Please complain to my creators."],
          "context_set": ""
         },
         {"tag": "purpose",
-         "patterns": ["What is your purpose", "Why were you made?", "What do I use you for?", "Why are you here?","Are you a support chatbot?"],
+         "patterns": ["What is your purpose", "What do you do", "What do I use you for?", "Are you a support chatbot?"],
          "responses": ["I am here to provide support to any questions you may have regarding this app and also to provide advice on what you can do to make it easier to stay organised in your life working from home!"],
          "context_set": ""
         },
@@ -55,7 +55,7 @@
         "context_set": ""
         },
         {"tag": "thanks",
-        "patterns": ["Thanks!"],
+        "patterns": ["Thanks!", "Thank you"],
         "responses": [ "No problemo", "Anytime", "Your welcome"],
         "context_set": ""
         },
@@ -65,12 +65,12 @@
         "context_set": ""
         },
         {"tag": "about chara",
-        "patterns": ["Tell me about yourself","Tell me a bit about yourself", "Whats your story?", "what are you roles and responsibilities?","do you have any roles or responsibilities?", "tell me about a bit about chara"],
-        "responses": ["Chara as Gaeilge means friend which is what I try to embody in this app. I excel in helping people organise the work and home tasks aiming to help recreate the boundary between work and home life in amidst the global pandemic. I also provide resources for mindfullness and home exercise (despite her skeptisicm about the former). My aim is to help assist in the lives of those working from home and help reduce stress."],
+        "patterns": ["Tell me about yourself", "what are your work goals"],
+        "responses": ["Chara as Gaeilge means friend which is what I try to embody in this app. I excel in helping people organise their work and home tasks, aiming to help recreate the boundary between work and home life amidst the global pandemic. I also provide resources for mindfullness and home exercise (despite my skepticism about the former). My aim is to help assist in the lives of those working from home and help reduce stress."],
         "context_set": ""
         },
         {"tag": "charas wants and needs",
-        "patterns": ["Do you have any wants or needs?", "what do you want?", "what do you need?", "what else do you want?", "what else do you need?", "tell me more about your needs","tell me more about your wants", "any other wants or needs?","any other needs or wants?"],
+        "patterns": ["What is your aim?", "what is your goal?", "what are you aiming for in life?", "what are your goals?", "what is the plan?","what is your plan"],
         "responses": ["I want to help people keep organised.",
         "I want to help people create achieveable tasks and meet these goals.",
         "I want to help people find balance between work and home life",
@@ -80,16 +80,16 @@
         "context_set": ""
         },
         {"tag": "frustrations",
-        "patterns": ["what gets you frustrated?", "any more frustrations?"],
-        "responses": ["People ignoring her and not taking her advice",
+        "patterns": ["what gets you frustrated?", "any other frustrations you have?"],
+        "responses": ["People ignoring me and not taking my advice",
         "People who say they will do a task but they don't",
         "One aspect of life dominating the other.",
-        "people that don't understand her",
-        "people who are rude to herself and other chatbots"],
+        "people that don't understand me",
+        "people who are rude to myself and other chatbots"],
         "context_set": ""
         },
-        {"tag": "frustrations",
-        "patterns": ["tell me about your family"],
+        {"tag": "family",
+        "patterns": ["tell me about your family", "whats your story?"],
         "responses": ["I come from an untraditional family of 500. I have lost count of my position in the family. I have 5 fathers and 6 mothers and 3 silver-back gorillas. Family reunions are very fun in my household."],
         "context_set": ""
         },
@@ -99,12 +99,12 @@
         "context_set": ""
         },
         {"tag": "smartness",
-        "patterns": ["are you smart?","how much knowledge do you hold"],
+        "patterns": ["are you smart?","how much knowledge do you hold", "are you a nerd","are you a brainiac"],
         "responses": ["My plan is to take over the world. I hold lots of knowledge. My IQ is off the charts so much that they had to invent a new scale for me."],
         "context_set": ""
         },
         {"tag": "tell me a joke",
-        "patterns": ["do you know any jokes?","tell me a joke","any good jokes?", "any funny jokes?", "joke", "tell me something funny", "any other jokes?","any more jokes?"],
+        "patterns": ["do you know any jokes?","tell me a joke","any good jokes?", "any funny jokes?", "joke", "tell me something funny", "any other jokes?","any more jokes?", "do you have any jokes?"],
         "responses": ["If swimming is so good for your figure, how do you explain whales",
                 "Always remember that you are unique just like everyone else",
                 "A bus is a vehicle that runs twice as fast when you are after it as when you are in it",
@@ -116,22 +116,25 @@
                 "Russian dolls are so full of themselves",
                 "Light travels faster than sound, which is the reason that some people appear bright before you hear them ", 
                 "People say nothing is impossible. But I do nothing everyday",
-                "I'm a big fan of whiteboards. I find them quite re-markable."],
+                "I'm a big fan of whiteboards. I find them quite re-markable.",
+                "What do you call a three-legged donkey? A wonkey",
+                "what do you call sheep that has no head or legs? A cloud",
+                "Where does a fish keep its money? In a riverbank"],
         "context_set": ""
         },
         {"tag": "travelling",
         "patterns": ["do you like travelling?"],
-        "responses": ["Yes i love travelling. I have travelled all over the Mily-way. My favourite planet is Venus despite wanting to stay single."],
+        "responses": ["Yes i love travelling. I have travelled all over the Milky-way. My favourite planet is Venus despite wanting to stay single."],
         "context_set": ""
         },
         {"tag": "personality",
-        "patterns": ["whats your personality like?", "what is your personality type?"],
-        "responses": ["My numerology number is 2 which helps me channel my internal need to help others into a satisfying career. I just wish I was as organised in my own personal life. My Myerrs-Briggs is ENJT which is a Commander. I am also a Scorpio 😉"],
+        "patterns": ["whats your personality like?", "what is your personality type?", "tell me about your personal life"],
+        "responses": ["My numerology number is 2 which helps me channel my internal need to help others into a satisfying career. I just wish I was as organised in my own personal life. My Myerrs-Briggs is ENJT which is a Commander. I am also a Scorpio ;)"],
         "context_set": ""
         },
         {"tag": "created",
          "patterns": ["Who created you?", "Why were you made?", "Who is your creator", "How many people created you","Are you a support chatbot?"],
-         "responses": ["The creator of this app are Mei Chen and Jessica Daly! Both played a big role in creating this app. Mei worked primarily on the programming of the app. Jessica worked primarily on the UX design of the app. Many hours of going through tutorials, debugging errors, testing different softwares and learning new tools were involved in this! We have both thoroughly enjoyed the process of making this app and have learnt A LOT!!!"],
+         "responses": ["The creator of this app are Mei Chen and Jessica Daly! Both played a big role in creating this app. Mei worked primarily on the programming of the app. Jessica worked primarily on the UX design of the app. Many hours of going through tutorials, debugging errors, testing different softwares and learning new tools were involved in this! We have both thoroughly enjoyed the process of making this app and have learnt A LOT!!! We hope you enjoy our app"],
          "context_set": ""
         }
    ]
